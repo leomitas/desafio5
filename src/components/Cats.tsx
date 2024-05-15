@@ -25,7 +25,7 @@ export default function Cats() {
 
   return (
     <main>
-      <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 m-16 border-2 p-8 rounded-lg'>
+      <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 mt-16 mx-8 border-2 p-8 rounded-lg'>
         {data!.map((cat) => {
           return (
             <li key={cat.id} className='justify-center flex'>
